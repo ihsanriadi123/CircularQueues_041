@@ -72,8 +72,13 @@ public:
 
 		cout << "\nElemen in the queue are: \n";
 
-
 		//jika front_position <= rear_position, terjadi dari front hingga Rear
 		if (FRONT_position <= REAR_position) {
-			while
+			while (FRONT_position <= REAR_position) {
+				cout << queue_array[FRONT_position] << " ";
+				FRONT_position++;
+			}
+
 		}
+		}
+};
